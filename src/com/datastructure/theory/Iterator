@@ -1,0 +1,15 @@
+Ierator
+
+hasNext()
+next()
+remove() - Mostly not implemented
+
+Only if the class is iterable
+we can use for each loop
+
+Note that there is no assumption about the order in which an 
+Iterator object delivers the elements from the collection.
+
+Another issue surrounding the use of iterators is what happens if the collection is modified while the iterator is in use. 
+Most of the collections in the Java Collections API are implemented to be fail-fast. 
+This simply means that they will, or should, throw an exception if the collection is modified while the iterator is in use

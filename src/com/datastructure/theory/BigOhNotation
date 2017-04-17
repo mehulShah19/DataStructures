@@ -1,0 +1,39 @@
+Big Oh Notation
+
+Order 
+1 logn n nlogn n2 n3 2n
+
+for { x ++ 
+	for  y +2
+}  === > n2
+
+
+for { x == 0; x < 100
+	x *2 
+ for {y ++
+		  
+} == > nlogn
+
+
+for { x == 0; x < 100
+	x *2 
+	}
+	for {y ++
+		  }
+==> n + logn ==> logn
+
+---------
+
+Big Oh Notation is upper bound Worst
+Omega is lower bound Best
+Theta is the average
+
+
+-------------------- Certain elements which are common in generic
+Creating new array of type T
+T[] a = (T[])new Object[size];
+
+If we want the comparable objects
+T[] comparable = (T[])(new Comparable[mid]);
+
+<T extends Comparable<? super T>> in Method
