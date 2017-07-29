@@ -248,7 +248,7 @@ public class ProfSorting
 			while (left < right && data[left].compareTo(partitionelement) <= 0)
 				left++;
 			
-			// search for an element that is < the partition element
+			// search for an element that is <= the partition element
 			while (data[right].compareTo(partitionelement) > 0)
 				right--;
 			

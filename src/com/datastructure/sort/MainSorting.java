@@ -5,12 +5,14 @@ public class MainSorting {
 	
 	public static void main(String[] args){
 		
-	      Integer[] integer = new Integer[]{97, 8, 7, 45, 133, 325, 9, 1, 563};
+	      Integer[] integer = new Integer[]{2, 13, 16, 12, 25, 23, 3, 7};
 	      //InsertionSort.insertionSort(integer);
 	      //SelectionSort.selectionSort(integer);
 	    //  Sorting.selectionSort(integer);
-	      System.out.println("XXXX");
-	      SelectionSort.selectionSort(integer);
+	//      System.out.println("XXXX");
+	 //     SelectionSort.selectionSort(integer);
+
+	      ProfSorting.quickSort(integer);
 	}
 	
 	

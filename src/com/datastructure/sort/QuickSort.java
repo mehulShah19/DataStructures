@@ -20,13 +20,13 @@ public class QuickSort {
 	 *  if the partition always occurs in the middle of the list, 
 	 *  there will again be lognlog⁡n divisions. 
 	 *  In order to find the split point, each of the n items needs to be checked against the pivot value. 
-	 *  The result is nlognnlog⁡n. In addition, there is no need for additional memory as in the merge sort process.
+	 *  The result is nlogn. In addition, there is no need for additional memory as in the merge sort process.
 
 		Unfortunately, in the worst case, the split points may not be in the middle and can be very skewed to the left or the right, 
 		leaving a very uneven division. 
 		In this case, sorting a list of n items divides into sorting a list of 0 items and a list of n−1n−1 items. 
 		Then sorting a list of n−1n−1 divides into a list of size 0 and a list of size n−2n−2, and so on. 
-		The result is an O(n2)O(n2) sort with all of the overhead that recursion requires.
+		The result is an O(n2) sort with all of the overhead that recursion requires.
 
 		We mentioned earlier that there are different ways to choose the pivot value. 
 		In particular, we can attempt to alleviate some of the potential for an uneven division by using a technique called median of three. 
@@ -82,7 +82,7 @@ public class QuickSort {
 		while (left < right && data[left].compareTo(partitionelement) <= 0)
 			left++;
 		
-		// search for an element that is < the partition element
+		// search for an element that is <= the partition element
 		while (data[right].compareTo(partitionelement) > 0)
 			right--;
 		

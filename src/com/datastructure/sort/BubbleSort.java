@@ -10,10 +10,13 @@ public class BubbleSort {
 	 * 9 6 8 12 3 1 7
 	 * 6 9 8 12 3 1 7
 	 * 6 8 9 12 3 1 7
-	 * 
+	 * 6 8 9 12 3 1 7
 	 * 6 8 9 3 12 1 7
 	 * 6 8 9 3 1 12 7
 	 * 6 8 9 3 1 7 12
+	 * 
+	 * Again with second starts from 0 to n -1 
+	 * 
 	 * @param data
 	 */
 	

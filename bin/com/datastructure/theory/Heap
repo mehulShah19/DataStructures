@@ -1,0 +1,21 @@
+HeapMap
+- binary tree
+- complete tree will have all leaf node on the left side and is balanced
+
+minHeap 
+- All the element on the node is smaller than or equal to the child
+
+add - 
+Add some element in the last leaf and keep moving upward if parent is greater than the child
+
+
+remove min() -
+remove the head or the root of the tree
+replace with the element stored in the last leaf 
+then move down if the element is smaller than the root keep moving down till both the elements are not smaller than the current last node
+
+Heap Priority Queues -
+Priority and if same priority then FirstIn First Out basis
+
+MaxHeap can be used
+for arranging we can use the priority and then the order of the node
